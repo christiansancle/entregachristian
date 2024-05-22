@@ -1,0 +1,3 @@
+admin@gmail.com su contraseña es 4435864
+usuario@gmail.com su contraseña es 4435864
+coloco esto ya que las contraseña estan encriptadas

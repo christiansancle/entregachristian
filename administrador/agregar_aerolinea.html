@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Aerolínea</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body style="background-image: url('../imagen/fondo16.jpeg'); background-size: cover;">
+
+<div class="container">
+    <h2>Agregar Aerolínea</h2>
+    <form action="crear/crear_aerolinea.php" method="POST">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="pais_origen" class="form-label">País de Origen</label>
+            <input type="text" class="form-control" id="pais_origen" name="pais_origen">
+        </div>
+        <div class="mb-3">
+            <label for="contacto" class="form-label">Contacto</label>
+            <input type="text" class="form-control" id="contacto" name="contacto">
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Agregar Aerolínea</button>
+                <button onclick="window.location.href='aerolineas.php'" class="btn btn-secondary ml-auto">Volver a ver aerolínea</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
